@@ -17,15 +17,15 @@ MONGO_DB_URI = getenv("MONGO_DB_URI")
 # Bot tokens
 BOT_TOKENS = [
     getenv("BOT_TOKEN", default="6636960153:AAE-I_EzI-B-c_xoAfk_kEsZAJKHNjhNH7s"),
-    getenv("BOT_TOKEN2", default=None),
-    getenv("BOT_TOKEN3", default=None),
-    getenv("BOT_TOKEN4", default=None),
-    getenv("BOT_TOKEN5", default=None),
-    getenv("BOT_TOKEN6", default=None),
-    getenv("BOT_TOKEN7", default=None),
-    getenv("BOT_TOKEN8", default=None),
-    getenv("BOT_TOKEN9", default=None),
-    getenv("BOT_TOKEN10", default=None),
+    getenv("BOT_TOKEN2", default="6636960153:AAE-I_EzI-B-c_xoAfk_kEsZAJKHNjhNH7s"),
+    getenv("BOT_TOKEN3", default="6636960153:AAE-I_EzI-B-c_xoAfk_kEsZAJKHNjhNH7s"),
+    getenv("BOT_TOKEN4", default="6636960153:AAE-I_EzI-B-c_xoAfk_kEsZAJKHNjhNH7s"),
+    getenv("BOT_TOKEN5", default="6636960153:AAE-I_EzI-B-c_xoAfk_kEsZAJKHNjhNH7s"),
+    getenv("BOT_TOKEN6", default="6636960153:AAE-I_EzI-B-c_xoAfk_kEsZAJKHNjhNH7s"),
+    getenv("BOT_TOKEN7", default="6636960153:AAE-I_EzI-B-c_xoAfk_kEsZAJKHNjhNH7s"),
+    getenv("BOT_TOKEN8", default="6636960153:AAE-I_EzI-B-c_xoAfk_kEsZAJKHNjhNH7s"),
+    getenv("BOT_TOKEN9", default="6636960153:AAE-I_EzI-B-c_xoAfk_kEsZAJKHNjhNH7s"),
+    getenv("BOT_TOKEN10", default="6636960153:AAE-I_EzI-B-c_xoAfk_kEsZAJKHNjhNH7s"),
 ]
 
 # Sudo users and owner ID
