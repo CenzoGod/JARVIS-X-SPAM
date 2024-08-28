@@ -16,7 +16,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI")
 
 # Bot tokens
 BOT_TOKENS = [
-    getenv("BOT_TOKEN", default=None),
+    getenv("BOT_TOKEN", default="6636960153:AAE-I_EzI-B-c_xoAfk_kEsZAJKHNjhNH7s"),
     getenv("BOT_TOKEN2", default=None),
     getenv("BOT_TOKEN3", default=None),
     getenv("BOT_TOKEN4", default=None),
@@ -29,9 +29,9 @@ BOT_TOKENS = [
 ]
 
 # Sudo users and owner ID
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", default="6757745933").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", default="6698364560").split()))
 SUDO_USERS.extend(FRIDAY)
-OWNER_ID = int(getenv("OWNER_ID", default="7044783841"))
+OWNER_ID = int(getenv("OWNER_ID", default="6663845789"))
 SUDO_USERS.append(OWNER_ID)
 
 # Initialize Telegram clients
