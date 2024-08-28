@@ -14,7 +14,7 @@ from datetime import datetime
 from var import Var
 from time import sleep
 from telethon.errors.rpcerrorlist import FloodWaitError
-from telethon.tl import functions
+from random import choice
 from telethon.tl.types import (
     ChannelParticipantsAdmins,
     ChannelParticipantsKicked,
