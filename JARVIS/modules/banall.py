@@ -44,7 +44,7 @@ logging.basicConfig(level=logging.INFO)
 
 print("Starting.....")
 
-Riz = TelegramClient('Riz', Var.API_ID, Var.API_HASH).start(bot_token=Var.BOT_TOKEN)
+from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS
 
 
 SUDO_USERS = []
